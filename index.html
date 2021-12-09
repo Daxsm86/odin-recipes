@@ -1,42 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Recipes</title>
-  </head>
-  <body>
-    <header>
-      <img src="/images/keylime_chili_logo.png" alt="lime chili logo" height="200" width="200">
-      <nav>
-          <h1>Odin Recipes</h1>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-          </ul>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <img src="/images/bibimbap.jpg" alt="Bibimbap" height="300" width="250">
-        <h4><a href="/recipes/bibimbap.html">Bibimbap</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Cras sed felis eget velit. Eros in cursus turpis massa. Eu facilisis sed odio morbi quis commodo odio aenean sed.</p>
-      </div>
-      <div>
-        <img src="/images/khao_soi.jpg" alt="Khao Soi" height="300" width="250">
-        <h4><a href="/recipes/khao_soi.html">Khao Soi</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Cras sed felis eget velit. Eros in cursus turpis massa. Eu facilisis sed odio morbi quis commodo odio aenean sed.</p>
-      </div>
-      <div>
-        <img src="/images/okonomiyaki.jpg" alt="Okonomiyaki" height="300" width="250">
-        <h4><a href="/recipes/okonomiyaki.html">Okonomiyaki</a></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus et molestie ac feugiat sed lectus vestibulum mattis. Cras sed felis eget velit. Eros in cursus turpis massa. Eu facilisis sed odio morbi quis commodo odio aenean sed.</p>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Recipes</title>
+  <script src="https://kit.fontawesome.com/27081dc7fa.js" crossorigin="anonymous"></script>
+  <style>
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    nav {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkgray;
+    }
 
-
-
-    </main>
-    
-
-  </body>
+  </style>
+</head>
+<body>
+  <header>
+    <table cellspacing="25">
+      <tr>
+        <td><img src="/images/keylime_chili_logo.png" alt="lime chili logo" height="200" width="200"></td>
+        <td><h1>Odin Recipes</h1><p><em>A taste of Asian cuisine.</em></p></td>
+        <td>
+          <nav style="padding-left: 750px;">
+            <a href="">Home</a>
+            <a href="">About</a>
+          </nav>
+        </td>
+      </tr>
+    </table>
+  </header>
+  <main>
+    <div style="padding-left: 200px;">
+      <table cellspacing="25">
+        <tr>
+          <td><img src="/images/bibimbap.jpg" alt="Bibimbap" height="400" width="275"></td>
+          <td>
+            <h4><a href="/recipes/bibimbap.html">Bibimbap 비빔밥</a></h4>
+            <p style="word-wrap: normal; max-width: 300px;">One of the most famous Korean rice dishes. Topped with marinated meat, seasoned sautéed vegetables, kimchi, gochujang and often a fried egg.</p>
+            <p><strong>Region:</strong> East Asia</p>
+            <p><strong>Origin:</strong> Korea</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div style="padding-left: 550px; padding-top: 25px;">
+      <table cellspacing="25">
+        <tr>
+          <td>
+            <h4><a href="/recipes/khao_soi.html">Khao Soi ข้าวซอย</a></h4>
+            <p style="word-wrap: normal; max-width: 300px;">A coconut curry noodle soup consisting of noodles in a rich, thick coconut curry broth often with chicken or beef. A truly regional dish that varies in types of broth, noodles, protein and toppings.</p>
+            <p><strong>Region:</strong> Northern Thailand, Laos, Myanmar</p>
+            <p><strong>Origin:</strong> Southeast Asia</p>
+          </td>
+          <td><img src="/images/khao_soi.jpg" alt="Khao Soi" height="400" width="275"></td>
+        </tr>
+      </table>
+    </div>
+    <div style="padding-left: 200px; padding-top: 35px;">
+      <table cellspacing="25">
+        <tr>
+          <td><img src="/images/okonomiyaki.jpg" alt="Okonomiyaki" height="275" width="275"></td>
+          <td>
+            <h4><a href="/recipes/okonomiyaki.html">Okonomiyaki お好み焼き</a></h4>
+            <p style="word-wrap: normal; max-width: 300px;">A savory Japanese pancake made with a whole wheat flour batter and other ingredients. Often made with shredded cabbage, meat and seafood, topped with Okomomiyaki sauce, Japanese Mayo, Katusoboshi (Shaved Bonito flakes), Aonori and pickled ginger.</p>
+            <p><strong>Region:</strong> Hiroshima, Osaka</p>
+            <p><strong>Origin:</strong> Japan</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <footer>
+    <div style="padding-top: 100px; padding-left: 600px;">
+      <table>
+        <tr>
+          <td><p><strong>Created by</strong>:</p></td>
+          <td><i class="fab fa-github"></i></td>
+          <td><a href="https://github.com/Daxsm86">Daxsm86</a></td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+</body>
 </html>
