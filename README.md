@@ -1,0 +1,1 @@
+A simple recipe website made with mostly all HTML. Demonstrating my knowledge of symantic HTML and how to use table attributes. It was a challenge on creating a simple page with little to no CSS. I really enjoyed challenging myself to search for the docementation on how to create tables and style using basic HTML.
